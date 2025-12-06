@@ -2,7 +2,6 @@ const Imap = require('node-imap');
 const { simpleParser } = require('mailparser');
 const Proposal = require('../models/Proposal');
 const Vendor = require('../models/vendor');
-const RFP =  require('../models/rfp');
 const ai = require('./aiService');
 
 let imapConfig = {

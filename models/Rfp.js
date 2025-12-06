@@ -20,4 +20,5 @@ const RfpSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('rfp', RfpSchema);
+// module.exports = mongoose.model('RFP', RfpSchema);
+module.exports = mongoose.models.RFP || mongoose.model('RFP', RfpSchema);

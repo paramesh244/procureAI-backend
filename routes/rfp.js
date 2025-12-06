@@ -2,12 +2,11 @@ const express = require('express');
 
 const router = express.Router();
 const ai = require('../services/aiService');
-const RFP = require('../models/rfp');
 const mongoose = require('mongoose');
-
 const emailService = require('../services/emailService');
 const Vendor = require('../models/vendor');
 const Proposal = require('../models/Proposal');
+const RFP = require('../models/rfp');
 
 // router.post("/create",async(req,res)=>{
 //     try {
