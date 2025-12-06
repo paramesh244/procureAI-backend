@@ -4,7 +4,7 @@ const router = express.Router();
 const ai = require('../services/aiService');
 const mongoose = require('mongoose');
 const emailService = require('../services/emailService');
-const Vendor = require('../models/vendor');
+const Vendor = require('../models/Vendor');
 const Proposal = require('../models/Proposal');
 const RFP = require('../models/rfp');
 

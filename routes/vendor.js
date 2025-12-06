@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Vendor = require('../models/vendor');
+const Vendor = require('../models/Vendor');
 const mongoose = require('mongoose');
 const Joi = require('joi');
 
